@@ -4,9 +4,26 @@ Red Hat OpenShift AI (RHOAI) combines the scalability and flexibility of contain
 ## RHODS installation
 RHOAI can be installed from the OpenShift Web Console. Navigate back to the "**Operators**" tab and select "**OperatorHub**". In the text box now type `RHODS` and select the "**Red Hat OpenShift Data Science**" operator and click on "**Install**". 
 
+<img width="940" alt="Screenshot 2024-01-29 at 3 50 28 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/7b9dd95e-e24c-404f-8ecb-6aa51520acdd">
 
+To start the installation press again the blue "**Install**" button. We can check to see if our operator successfully deployed under the "**Operators**" tab and select "**Installed Operators**". 
 
-To start the installation press again the blue "**Install**" button. Once the status is `Succeeded`, click on the operator and create a new "**Data Science Cluster**" instance. Once this has successfully deployed, we'll go to access our RHOAI Dashboard. On the administrator menu, head to "**Networking**" and click on "**Routes**". In Routes, we're going to change the project to "**redhat-ods-application**" and click on the address to take you to the RHOAI Dashboard. 
+<img width="1682" alt="Screenshot 2024-01-29 at 4 53 52 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/fc7f5f47-5618-421b-aa3a-1a90a02e4353">
+
+Now that our operator has successfully deployed, click on it and create a new "**Data Science Cluster**" instance. We don't need to make any changes to the default settings, so we'll just click "**Create**".
+
+<img width="719" alt="Screenshot 2024-01-29 at 4 55 57 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/76cf9ba8-8099-4a97-93fc-f2f989f5acf0">
+
+<img width="1127" alt="Screenshot 2024-01-29 at 4 56 30 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/3ade76b6-fbfa-463e-a357-4aa5a4f30787">
+
+Once this has successfully deployed, we'll go to access our RHOAI Dashboard. On the administrator menu, head to "**Networking**" and click on "**Routes**". In Routes, we're going to change the project to "**redhat-ods-application**", which is where we can access the address to our RHOAI application.
+
+<img width="804" alt="Screenshot 2024-01-29 at 3 53 28 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/4dfe1c64-7980-40f3-989b-7a201352ca29">
+
+There should only be one route available, so go ahead and click the address to take you to the RHOAI dashboard. 
+
+<img width="1684" alt="Screenshot 2024-01-29 at 3 53 17 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/17dde84f-acb4-4bc1-813d-3c32f1f48d25">
+
 
 ## Create Data Science Project
 A new window will open. Log in again using your OpenShift credentials (kubeadmin or your identity provider user).

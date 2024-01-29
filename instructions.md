@@ -57,6 +57,8 @@ Now that we're in our Jupyter environment, let's clone the Snorkel.ai repository
 <img width="537" alt="Screenshot 2024-01-29 at 5 45 33 PM" src="https://github.com/kaitlynabdo/rhoai-snorkel-tutorial/assets/45447032/8e5664ef-df82-442c-a6ab-ae5ae2cb808b"> <br />
 
 
-Now that we've cloned the repository, we're going to try out the *spam* and *spouse* tutorials (tutorials can be found in the directories with the corresponding name). The *spam* tutorial is a data labeling exercise that shows you how to build a training set for classifying YouTube comments as spam or not spam. Its an introductory tutorial and it is one avenue you could perform data labeling within RHOAI utilizing Snorkel. The *spouse* tutorial is a little more complex, it walks through how to utilize Snorkel for information extraction by using keywords and distant supervision. In this tutorial, you will learn how to we can identify and classify someone's spouce utilizing labeling functions and models to do so. This exercise is to demostrate how simple it is to integrate Snorkel's libraries and tools with your RHOAI environment. 
+Now that we've cloned the repository, we're going to try out the *spam* and *spouse* tutorials (tutorials can be found in the directories with the corresponding name). The *spam* tutorial is a data labeling exercise that shows you how to build a training set for classifying YouTube comments as spam or not spam. It's an introductory tutorial and it is one avenue you could perform data labeling within RHOAI utilizing Snorkel. 
+
+The *spouse* tutorial is a little more complex, it walks through how to utilize Snorkel for information extraction by using keywords and distant supervision. In this tutorial, you will learn how to we can identify and classify someone's spouce utilizing labeling functions and models to do so. This exercise is to demostrate how simple it is to integrate Snorkel's libraries and tools with your RHOAI environment. 
 
 
